@@ -2,6 +2,6 @@ $(document).ready(function(){
 
     $("th").click(function(){
         $("tr").children().removeClass("highlighter");
-        $(this).children().addClass("highlighter");
+        $(this).siblings().addClass("highlighter");
     });
 });
